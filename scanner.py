@@ -3,7 +3,8 @@ from colorama import Fore,Style # تلوين النصوص
 from pyfiglet import Figlet
 from tqdm import tqdm # شريط تقدم أثناء الفحص
 import time # تاخير بسيط بين كل فحص و فحص
-
+import os
+os.system("clear")
 def display_title():
     f=Figlet(font='slant') # نوع الخط
     print(Fore.CYAN + f.renderText('Port Scanner') + Style.RESET_ALL) # هذه عشان يكون اللون ازرق
@@ -39,4 +40,5 @@ def main():
 
 if __name__=="__main__":
     main()        
+
      
