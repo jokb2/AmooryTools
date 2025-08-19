@@ -4,7 +4,7 @@ import pyfiglet
 import os
 
 os.system("clear")
-BANNER = Fore.MAGENTA + pyfiglet.figlet_format("Social")+ Style.RESET_ALL
+BANNER = Fore.MAGENTA + pyfiglet.figlet_format("Social Hunter")+ Style.RESET_ALL
 
 SITES = {
     "Twitter": "https://twitter.com/{}",
@@ -61,6 +61,7 @@ if __name__=="__main__":
             print(Fore.YELLOW + "[!] please enter valid username" + Style.RESET_ALL)
             continue
         check_username(username)     
+
 
 
 
