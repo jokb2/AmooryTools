@@ -49,7 +49,7 @@ def check_username(username):
 
 if __name__=="__main__":
     print(BANNER)
-    print("\nMade By / Amoory")
+    print("Made By / Amoory")
     while True:
         print("To exit type exit")
         username=input(Fore.CYAN + f"[?] write the username:" +Style.RESET_ALL).strip()
@@ -61,6 +61,7 @@ if __name__=="__main__":
             print(Fore.YELLOW + "[!] please enter valid username" + Style.RESET_ALL)
             continue
         check_username(username)     
+
 
 
 
