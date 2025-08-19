@@ -28,7 +28,6 @@ SITES = {
     "Mixcloud": "https://www.mixcloud.com/{}",
     "SoundClick": "https://www.soundclick.com/{}",
     "Goodreads": "https://www.goodreads.com/{}",
-    "WordPress": "https://{}.wordpress.com",
     "Xing": "https://www.xing.com/profile/{}",
     "Weebly": "https://{}.weebly.com",
     "Myspace": "https://myspace.com/{}"
@@ -62,5 +61,6 @@ if __name__=="__main__":
             print(Fore.YELLOW + "[!] please enter valid username" + Style.RESET_ALL)
             continue
         check_username(username)     
+
 
 
