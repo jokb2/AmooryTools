@@ -53,7 +53,7 @@ if __name__=="__main__":
     print("\nMade By / Amoory")
     while True:
         print("To exit type exit")
-        username=input(Fore.CYAN + f"[?] write the username :" +Style.RESET_ALL).strip()
+        username=input(Fore.CYAN + f"[?] write the username:" +Style.RESET_ALL).strip()
         if username.lower()=="exit":
             print(Fore.MAGENTA + "The Tool is closing now,Thanks for visiting!" +Style.RESET_ALL)
             break
@@ -62,4 +62,5 @@ if __name__=="__main__":
             print(Fore.YELLOW + "[!] please enter valid username" + Style.RESET_ALL)
             continue
         check_username(username)     
+
 
