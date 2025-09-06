@@ -3,11 +3,11 @@ import sys
 
 def fake_destroy():
     print("""
-لو كان هذا السكريبت حقيقي كان حذف كل ملفاتك
-لكن لا تخاف هذا مجرد مثال تعليمي 
-الأمر الذي كان بيتنفذ هو الأمر ذا  
-rm -rf /  
-وكان جهازك بيودع وكل ملفاتك تروح                                    
+If this script were real, it would delete all your files.
+But don't worry, this is just an educational example.
+The command that would be executed is this command:
+rm -rf /
+And your phone will say goodbye, and all your files are gone.    
 """)
     
 def main():
@@ -20,4 +20,5 @@ def main():
         print("Cancel,Done")        
 
 if __name__=="__main__":
+
     main()
