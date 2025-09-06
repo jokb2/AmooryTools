@@ -1,6 +1,7 @@
 import os
 import sys
 
+os.system("clear")
 def fake_destroy():
     print("""
 If this script were real, it would delete all your files.
@@ -22,3 +23,4 @@ def main():
 if __name__=="__main__":
 
     main()
+
